@@ -15,6 +15,7 @@ Make sure you have the following installed:
    ```
 
 2. **Install dependencies and Running the Frontend and Backend:**
+   
    For Backend
    ```sh
    cd backend
@@ -50,7 +51,7 @@ SMTP_PORT=465
 
 SMTP_SERVICE=gmail
 
-SMTP_MAIL= Enter a Working Email
+SMTP_MAIL= Enter a Working Gmail
 
 SMTP_PASSWORD=
 
@@ -58,6 +59,6 @@ SMTP_PASSWORD=
 ```
 
 
-The server will start at `http://localhost:5173/` by default.
+The server will start at `http://localhost:5173` by default.
 
 Deployed Link: (https://auth-project-deployed.vercel.app)
