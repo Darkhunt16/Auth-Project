@@ -15,6 +15,7 @@ Make sure you have the following installed:
    ```
 
 2. **Create the Env**
+
 Create a `.env` file in the backend folder and add your environment variables:
 ```sh
 PORT =4000
