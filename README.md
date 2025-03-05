@@ -10,30 +10,54 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/Darkhunt16/Quantum_Task.git
-   cd Quantum_Task
+   git clone https://github.com/Darkhunt16/Auth-Project.git
+   cd Auth-Project
    ```
 
-2. **Install dependencies:**
+2. **Install dependencies and Running the Frontend and Backend:**
+   For Backend
    ```sh
+   cd backend
    npm install
+   npm run dev
+   ```
+
+   For Frontend
+   ```sh
+   cd frontend
+   npm install
+   npm run dev
    ```
 
 ## Environment Variables
-Create a `.env` file in the root directory and add your environment variables:
+Create a `.env` file in the backend folder and add your environment variables:
 ```sh
-NEXTAUTH_URL=http://localhost:3000
-DATABASE_URL=your-mongodb-url
-NEXTAUTH_SECRET=your-secret-key
+PORT =4000
+
+MONGO_URI= Your Database URL
+
+FRONTEND_URL=Enter the frontend URL(http://localhost:5173)
+
+JWT_SECRET_KEY= Anything Random
+
+JWT_EXPIRES=7d
+
+COOKIE_EXPIRES=7
+
+SMTP_HOST=smtp.gmail.com
+
+SMTP_PORT=465
+
+SMTP_SERVICE=gmail
+
+SMTP_MAIL= Enter a Working Email
+
+SMTP_PASSWORD=
+
+
 ```
 
-## Running the Development Server
 
-Start the Next.js development server:
-```sh
-npm run dev  # or yarn dev / pnpm dev
-```
+The server will start at `http://localhost:5173/` by default.
 
-The server will start at `http://localhost:3000/` by default.
-
-Deployed Link: (https://quantum-task-0209.vercel.app)
+Deployed Link: (https://auth-project-deployed.vercel.app)
