@@ -14,23 +14,7 @@ Make sure you have the following installed:
    cd Auth-Project
    ```
 
-2. **Install dependencies and Running the Frontend and Backend:**
-   
-   For Backend
-   ```sh
-   cd backend
-   npm install
-   npm run dev
-   ```
-
-   For Frontend
-   ```sh
-   cd frontend
-   npm install
-   npm run dev
-   ```
-
-## Environment Variables
+2. **Create the Env**
 Create a `.env` file in the backend folder and add your environment variables:
 ```sh
 PORT =4000
@@ -57,6 +41,22 @@ SMTP_PASSWORD=
 
 
 ```
+3. **Install dependencies and Running the Frontend and Backend:**
+   
+   For Backend
+   ```sh
+   cd backend
+   npm install
+   npm run dev
+   ```
+
+   For Frontend
+   ```sh
+   cd frontend
+   npm install
+   npm run dev
+   ```
+
 
 
 The server will start at `http://localhost:5173` by default.
